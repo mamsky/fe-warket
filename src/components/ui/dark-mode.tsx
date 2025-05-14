@@ -14,7 +14,7 @@ const DarkMode = () => {
   }, [value]);
 
   return (
-    <label className="swap swap-rotate">
+    <label className="swap swap-rotate fixed bottom-0 right-0 overflow-hidden">
       <input
         type="checkbox"
         onChange={handleButton}
