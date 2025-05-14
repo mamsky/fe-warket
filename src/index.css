@@ -1,0 +1,7 @@
+html {
+  transition: all 0.3s ease-in-out;
+}
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, luxury;
+}
